@@ -9,7 +9,7 @@ gdjs.evtsExt__MarchingSquares__DefineHelperClasses = {};
 gdjs.evtsExt__MarchingSquares__DefineHelperClasses.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__MarchingSquares__DefineHelperClasses.userFunc0xd99ed0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__MarchingSquares__DefineHelperClasses.userFunc0xe6da40 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 gdjs.__marchingSquaresExtension = gdjs.__marchingSquaresExtension || {};
 
@@ -115,7 +115,7 @@ gdjs.evtsExt__MarchingSquares__DefineHelperClasses.eventsList0 = function(runtim
 {
 
 
-gdjs.evtsExt__MarchingSquares__DefineHelperClasses.userFunc0xd99ed0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__MarchingSquares__DefineHelperClasses.userFunc0xe6da40(runtimeScene, eventsFunctionContext);
 
 }
 

@@ -9,7 +9,7 @@ gdjs.evtsExt__MarchingSquares__DefineScalarFieldPainterLibrary = {};
 gdjs.evtsExt__MarchingSquares__DefineScalarFieldPainterLibrary.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__MarchingSquares__DefineScalarFieldPainterLibrary.userFunc0xd99ed0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__MarchingSquares__DefineScalarFieldPainterLibrary.userFunc0x8a97c8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 // This library comes from https://github.com/D8H/scalar-field-painter
 // It can be generated with "npm run build" to the dist/ScalarFieldPainter.js
@@ -1066,7 +1066,7 @@ gdjs.evtsExt__MarchingSquares__DefineScalarFieldPainterLibrary.eventsList0 = fun
 {
 
 
-gdjs.evtsExt__MarchingSquares__DefineScalarFieldPainterLibrary.userFunc0xd99ed0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__MarchingSquares__DefineScalarFieldPainterLibrary.userFunc0x8a97c8(runtimeScene, eventsFunctionContext);
 
 }
 
