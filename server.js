@@ -11,7 +11,9 @@ const db = new Datastore({
     filename: "score.db",
     autoload: true
 });
-
+server.get("/", (req, res) => {
+    res.send("API is running");
+});
 server.post("/api/SaveSurvivalTime", (req, res) => {
     console.log(req.body);
 
