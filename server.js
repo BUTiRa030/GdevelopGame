@@ -1,6 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const Datastore = require("nedb");
+const Datastore = require("@seald-io/nedb");
 
 const server = express();
 
@@ -14,42 +14,49 @@ const db = new Datastore({
 
 server.post("/api/SaveSurvivalTime", (req, res) => {
 
-    const player = req.body.player;
     const score = Number(req.body.score);
 
-    db.insert({
-        player,
-        score,
-        time: new Date()
-    }, (err, doc) => {
+    db.findOne({ type: "best" }, (err, doc) => {
 
-        if (err) {
-            return res.status(500).json({
-                success: false
+        if (!doc) {
+            db.insert({
+                type: "best",
+                score
+            });
+
+            return res.json({ success: true });
+        }
+
+        if (score > doc.score) {
+            db.update(
+                { type: "best" },
+                { $set: { score } },
+                {},
+                () => {
+                    res.json({ success: true });
+                }
+            );
+        } else {
+            res.json({ success: true });
+        }
+    });
+});
+server.get("/api/GetSurvivalTime", (req, res) => {
+
+    db.findOne({ type: "best" }, (err, doc) => {
+
+        if (!doc) {
+            return res.json({
+                score: 0
             });
         }
 
         res.json({
-            success: true,
-            data: doc
+            score: doc.score
         });
     });
 });
 
-// server.get("/rank", (req, res) => {
-
-//     db.find({})
-//       .sort({ score: -1 })
-//       .limit(10)
-//       .exec((err, docs) => {
-
-//           if (err) {
-//               return res.status(500).send("DB Error");
-//           }
-
-//           res.json(docs);
-//       });
-// });
 
 server.listen(8080, () => {
     console.log("Server is running.");
