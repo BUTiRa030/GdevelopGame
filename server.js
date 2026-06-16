@@ -13,6 +13,7 @@ const db = new Datastore({
 });
 
 server.post("/api/SaveSurvivalTime", (req, res) => {
+    console.log(req.body);
 
     const score = Number(req.body.score);
 
