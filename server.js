@@ -4,8 +4,9 @@ const Datastore = require("@seald-io/nedb");
 
 const server = express();
 
-server.use(bodyParser.json());
-server.use(bodyParser.urlencoded({ extended: true }));
+server.use(express.json());
+
+// 👉 讓 GDevelop 可以被打開
 server.use(express.static("public"));
 
 const db = new Datastore({
