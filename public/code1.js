@@ -379,7 +379,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Map1Code.localVariables);
 }
 {gdjs.evtTools.storage.writeNumberInJSONFile("SaveSurvivalTime", "STime", runtimeScene.getGame().getVariables().getFromIndex(0).getAsNumber());
 }
-{gdjs.evtTools.network.sendAsyncRequest("api/SaveSurvivalTime", "{ToString(GlobalVariable(SurvivalTimeGlobal))}", "POST", "application/json", gdjs.VariablesContainer.badVariable, gdjs.VariablesContainer.badVariable);
+{gdjs.evtTools.network.sendAsyncRequest("/api/SaveSurvivalTime", "{GlobalVariable(SurviveTimeGlobal)}", "POST", "application/json", gdjs.VariablesContainer.badVariable, gdjs.VariablesContainer.badVariable);
 }
 gdjs.Map1Code.localVariables.length = 0;
 }
