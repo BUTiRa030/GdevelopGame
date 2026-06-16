@@ -6,6 +6,7 @@ const server = express();
 
 server.use(bodyParser.json());
 server.use(bodyParser.urlencoded({ extended: true }));
+server.use(express.static("public"));
 
 const db = new Datastore({
     filename: "score.db",
