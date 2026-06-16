@@ -12,7 +12,7 @@ const db = new Datastore({
     autoload: true
 });
 
-server.post("/upScore", (req, res) => {
+server.post("/api/SaveSurvivalTime", (req, res) => {
 
     const player = req.body.player;
     const score = Number(req.body.score);
