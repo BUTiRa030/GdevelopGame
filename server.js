@@ -17,9 +17,12 @@ server.get("/", (req, res) => {
     res.send("API is running");
 });
 server.post("/api/SaveSurvivalTime", (req, res) => {
-    console.log(req.body);
+    console.log("body =", req.body);
+    console.log("type =", typeof req.body);
 
-    const score = Number(req.body.score);
+    const score = Number(req.body?.score);
+
+    console.log("score =", score);
 
     db.findOne({ type: "best" }, (err, doc) => {
 
