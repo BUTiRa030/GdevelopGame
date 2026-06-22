@@ -154,6 +154,21 @@ if (isConditionTrue_0) {
 }
 
 
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(0).getAsString() != "");
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.storage.readNumberFromJSONFile("SaveData", "SurviveTime", runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(0));
+}
+}
+
+}
+
+
 };
 
 gdjs.Main_32MenuCode.func = function(runtimeScene) {
