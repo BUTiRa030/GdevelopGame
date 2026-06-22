@@ -52,7 +52,7 @@ server.get("/api/GetSurvivalTime", (req, res) => {
 
         if (!doc) {
             return res.json({
-                score: 0
+                score: 999
             });
         }
 
