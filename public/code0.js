@@ -79,7 +79,7 @@ gdjs.copyArray(runtimeScene.getObjects("BestSurviveTime"), gdjs.Main_32MenuCode.
     gdjs.Main_32MenuCode.GDBestSurviveTimeObjects1[i].getBehavior("Text").setText("Best Time: " + runtimeScene.getGame().getVariables().getFromIndex(1).getAsString() + " Seconds");
 }
 }
-{gdjs.evtTools.network.sendAsyncRequest("https://gdevelopgame.onrender.com/api/GetSurvivalTime", "", "GET", "application/json", runtimeScene.getScene().getVariables().getFromIndex(0), runtimeScene.getScene().getVariables().getFromIndex(1));
+{gdjs.evtTools.network.sendAsyncRequest("/api/GetSurvivalTime", "", "GET", "application/json", runtimeScene.getScene().getVariables().getFromIndex(0), runtimeScene.getScene().getVariables().getFromIndex(1));
 }
 }
 
@@ -143,7 +143,7 @@ if(isConditionTrue_1) {
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18837412);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19240108);
 }
 }
 if (isConditionTrue_0) {

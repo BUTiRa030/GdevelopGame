@@ -9,7 +9,7 @@ gdjs.evtsExt__URLTools__Reload = {};
 gdjs.evtsExt__URLTools__Reload.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__URLTools__Reload.userFunc0x125d9d0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__URLTools__Reload.userFunc0x140bce0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 location.reload();
 
@@ -19,7 +19,7 @@ gdjs.evtsExt__URLTools__Reload.eventsList0 = function(runtimeScene, eventsFuncti
 {
 
 
-gdjs.evtsExt__URLTools__Reload.userFunc0x125d9d0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__URLTools__Reload.userFunc0x140bce0(runtimeScene, eventsFunctionContext);
 
 }
 
@@ -55,7 +55,9 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        eventsFunctionContext._objectArraysMap[objectName].push(object);
+        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
+          eventsFunctionContext._objectArraysMap[objectName].push(object);
+        }
       }
       return object;
     }
