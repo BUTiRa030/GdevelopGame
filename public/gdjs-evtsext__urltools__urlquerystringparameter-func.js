@@ -9,7 +9,7 @@ gdjs.evtsExt__URLTools__URLQueryStringParameter = {};
 gdjs.evtsExt__URLTools__URLQueryStringParameter.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__URLTools__URLQueryStringParameter.userFunc0x1425c78 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__URLTools__URLQueryStringParameter.userFunc0x13aa018 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue =
     (new URL(eventsFunctionContext.getArgument("URL"))
@@ -22,7 +22,7 @@ gdjs.evtsExt__URLTools__URLQueryStringParameter.eventsList0 = function(runtimeSc
 {
 
 
-gdjs.evtsExt__URLTools__URLQueryStringParameter.userFunc0x1425c78(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__URLTools__URLQueryStringParameter.userFunc0x13aa018(runtimeScene, eventsFunctionContext);
 
 }
 
@@ -58,9 +58,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }

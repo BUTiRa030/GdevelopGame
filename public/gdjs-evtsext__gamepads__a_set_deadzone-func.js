@@ -9,7 +9,7 @@ gdjs.evtsExt__Gamepads__A_Set_deadzone = {};
 gdjs.evtsExt__Gamepads__A_Set_deadzone.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Gamepads__A_Set_deadzone.userFunc0xc87f18 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Gamepads__A_Set_deadzone.userFunc0xaf9460 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 
 const playerId = eventsFunctionContext.getArgument("PlayerId") - 1;
@@ -24,7 +24,7 @@ gdjs.evtsExt__Gamepads__A_Set_deadzone.eventsList0 = function(runtimeScene, even
 {
 
 
-gdjs.evtsExt__Gamepads__A_Set_deadzone.userFunc0xc87f18(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Gamepads__A_Set_deadzone.userFunc0xaf9460(runtimeScene, eventsFunctionContext);
 
 }
 
@@ -60,9 +60,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }

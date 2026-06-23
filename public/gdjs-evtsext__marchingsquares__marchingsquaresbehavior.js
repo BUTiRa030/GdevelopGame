@@ -187,7 +187,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ExtendBehaviorClassContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ExtendBehaviorClassContext.userFunc0x140bd90 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ExtendBehaviorClassContext.userFunc0x13a8470 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const game = runtimeScene.getGame();
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
@@ -495,7 +495,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ExtendBehaviorClassContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ExtendBehaviorClassContext.GDObjectObjects1;
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ExtendBehaviorClassContext.userFunc0x140bd90(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ExtendBehaviorClassContext.userFunc0x13a8470(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -540,9 +540,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -581,7 +579,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ExtendObjectInstancePrototypeContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ExtendObjectInstancePrototypeContext.userFunc0x14051b8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ExtendObjectInstancePrototypeContext.userFunc0x13b9af8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const game = runtimeScene.getGame();
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
@@ -624,7 +622,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ExtendObjectInstancePrototypeContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ExtendObjectInstancePrototypeContext.GDObjectObjects1;
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ExtendObjectInstancePrototypeContext.userFunc0x14051b8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ExtendObjectInstancePrototypeContext.userFunc0x13b9af8(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -669,9 +667,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -826,9 +822,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -869,7 +863,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ClearFieldContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ClearFieldContext.userFunc0x1425510 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ClearFieldContext.userFunc0x13b9dc0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const game = runtimeScene.getGame();
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
@@ -884,7 +878,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ClearFieldContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ClearFieldContext.GDObjectObjects1;
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ClearFieldContext.userFunc0x1425510(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ClearFieldContext.userFunc0x13b9dc0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -929,9 +923,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -970,7 +962,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.UpsidedownFloodFromContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.UpsidedownFloodFromContext.userFunc0x14256b8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.UpsidedownFloodFromContext.userFunc0x13b9a50 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
 
@@ -991,7 +983,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.UpsidedownFloodFromContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.UpsidedownFloodFromContext.GDObjectObjects1;
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.UpsidedownFloodFromContext.userFunc0x14256b8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.UpsidedownFloodFromContext.userFunc0x13b9a50(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1036,9 +1028,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -1082,7 +1072,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.FloodFromContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.FloodFromContext.userFunc0x1425570 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.FloodFromContext.userFunc0x13ae190 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
 
@@ -1103,7 +1093,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.FloodFromContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.FloodFromContext.GDObjectObjects1;
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.FloodFromContext.userFunc0x1425570(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.FloodFromContext.userFunc0x13ae190(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1148,9 +1138,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -1194,7 +1182,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ClampFieldContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ClampFieldContext.userFunc0x1426b90 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ClampFieldContext.userFunc0x13a81e0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
 
@@ -1212,7 +1200,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ClampFieldContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ClampFieldContext.GDObjectObjects1;
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ClampFieldContext.userFunc0x1426b90(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ClampFieldContext.userFunc0x13a81e0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1257,9 +1245,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -1300,7 +1286,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.TransformFieldContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.TransformFieldContext.userFunc0x140bf58 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.TransformFieldContext.userFunc0x13a4a38 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
 
@@ -1318,7 +1304,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.TransformFieldContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.TransformFieldContext.GDObjectObjects1;
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.TransformFieldContext.userFunc0x140bf58(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.TransformFieldContext.userFunc0x13a4a38(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1363,9 +1349,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -1406,7 +1390,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.AddHillContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.AddHillContext.userFunc0x140bca8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.AddHillContext.userFunc0x13a8380 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
 
@@ -1429,7 +1413,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.AddHillContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.AddHillContext.GDObjectObjects1;
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.AddHillContext.userFunc0x140bca8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.AddHillContext.userFunc0x13a8380(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1474,9 +1458,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -1522,7 +1504,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.AddDiskContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.AddDiskContext.userFunc0x1425870 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.AddDiskContext.userFunc0x13ae190 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
 
@@ -1543,7 +1525,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.AddDiskContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.AddDiskContext.GDObjectObjects1;
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.AddDiskContext.userFunc0x1425870(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.AddDiskContext.userFunc0x13ae190(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1588,9 +1570,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -1634,7 +1614,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.MaskDiskContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.MaskDiskContext.userFunc0x14241c0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.MaskDiskContext.userFunc0x13a8268 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
 
@@ -1655,7 +1635,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.MaskDiskContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.MaskDiskContext.GDObjectObjects1;
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.MaskDiskContext.userFunc0x14241c0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.MaskDiskContext.userFunc0x13a8268(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1700,9 +1680,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -1745,7 +1723,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.AddLineContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.AddLineContext.userFunc0x1426bf0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.AddLineContext.userFunc0x13ae280 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
 
@@ -1768,7 +1746,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.AddLineContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.AddLineContext.GDObjectObjects1;
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.AddLineContext.userFunc0x1426bf0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.AddLineContext.userFunc0x13ae280(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1813,9 +1791,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -1861,7 +1837,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.MaskLineContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.MaskLineContext.userFunc0x1411940 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.MaskLineContext.userFunc0x13a8440 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
 
@@ -1883,7 +1859,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.MaskLineContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.MaskLineContext.GDObjectObjects1;
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.MaskLineContext.userFunc0x1411940(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.MaskLineContext.userFunc0x13a8440(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1928,9 +1904,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -1976,7 +1950,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.MergeFieldContext.GDFieldObjectObjects1= [];
 
 
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.MergeFieldContext.userFunc0x1427920 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.MergeFieldContext.userFunc0x13a1958 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
 
@@ -2004,7 +1978,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.MergeFieldContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.MergeFieldContext.GDObjectObjects1;
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.MergeFieldContext.userFunc0x1427920(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.MergeFieldContext.userFunc0x13a1958(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -2052,9 +2026,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -2096,7 +2068,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.UpdateHitboxesContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.UpdateHitboxesContext.userFunc0x1425a00 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.UpdateHitboxesContext.userFunc0x13b9a98 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
 
@@ -2111,7 +2083,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.UpdateHitboxesContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.UpdateHitboxesContext.GDObjectObjects1;
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.UpdateHitboxesContext.userFunc0x1425a00(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.UpdateHitboxesContext.userFunc0x13b9a98(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -2156,9 +2128,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -2197,7 +2167,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.DrawFieldContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.DrawFieldContext.userFunc0x1425a50 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.DrawFieldContext.userFunc0x13a4a38 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const screenWidth = runtimeScene.getGame().getGameResolutionWidth();
 const screenHeight = runtimeScene.getGame().getGameResolutionHeight();
@@ -2239,7 +2209,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.DrawFieldContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.DrawFieldContext.GDObjectObjects1;
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.DrawFieldContext.userFunc0x1425a50(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.DrawFieldContext.userFunc0x13a4a38(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -2284,9 +2254,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -2385,9 +2353,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -2489,9 +2455,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -2533,7 +2497,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.RebuildFieldContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.RebuildFieldContext.userFunc0x1425300 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.RebuildFieldContext.userFunc0x13a17e0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const game = runtimeScene.getGame();
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
@@ -2561,7 +2525,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.RebuildFieldContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.RebuildFieldContext.GDObjectObjects1;
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.RebuildFieldContext.userFunc0x1425300(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.RebuildFieldContext.userFunc0x13a17e0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -2606,9 +2570,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -2717,9 +2679,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -2816,9 +2776,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -2926,9 +2884,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -3027,9 +2983,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -3124,9 +3078,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -3235,9 +3187,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -3346,9 +3296,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -3443,9 +3391,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -3540,9 +3486,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -3583,7 +3527,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.DimensionXContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.DimensionXContext.userFunc0x140bee0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.DimensionXContext.userFunc0x13a4a38 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
 
@@ -3598,7 +3542,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.DimensionXContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.DimensionXContext.GDObjectObjects1;
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.DimensionXContext.userFunc0x140bee0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.DimensionXContext.userFunc0x13a4a38(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -3643,9 +3587,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -3684,7 +3626,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.DimensionYContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.DimensionYContext.userFunc0x140c028 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.DimensionYContext.userFunc0x13a17e0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
 
@@ -3699,7 +3641,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.DimensionYContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.DimensionYContext.GDObjectObjects1;
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.DimensionYContext.userFunc0x140c028(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.DimensionYContext.userFunc0x13a17e0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -3744,9 +3686,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -3839,9 +3779,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -3882,7 +3820,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.NormalXContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.NormalXContext.userFunc0x1411ad8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.NormalXContext.userFunc0x13a1c98 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
 
@@ -3900,7 +3838,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.NormalXContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.NormalXContext.GDObjectObjects1;
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.NormalXContext.userFunc0x1411ad8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.NormalXContext.userFunc0x13a1c98(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -3945,9 +3883,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -3988,7 +3924,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.NormalYContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.NormalYContext.userFunc0x140bfe0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.NormalYContext.userFunc0x13b9bc8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
 
@@ -4006,7 +3942,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.NormalYContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.NormalYContext.GDObjectObjects1;
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.NormalYContext.userFunc0x140bfe0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.NormalYContext.userFunc0x13b9bc8(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -4051,9 +3987,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -4094,7 +4028,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.NormalZContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.NormalZContext.userFunc0x1411ad8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.NormalZContext.userFunc0x13b9e70 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
 
@@ -4112,7 +4046,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.NormalZContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.NormalZContext.GDObjectObjects1;
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.NormalZContext.userFunc0x1411ad8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.NormalZContext.userFunc0x13b9e70(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -4157,9 +4091,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -4200,7 +4132,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.SetGridValueContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.SetGridValueContext.userFunc0x140bfe0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.SetGridValueContext.userFunc0x13a8228 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
 
@@ -4219,7 +4151,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.SetGridValueContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.SetGridValueContext.GDObjectObjects1;
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.SetGridValueContext.userFunc0x140bfe0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.SetGridValueContext.userFunc0x13a8228(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -4264,9 +4196,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -4308,7 +4238,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.GridValueContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.GridValueContext.userFunc0x1405130 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.GridValueContext.userFunc0x13a4a38 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
 
@@ -4326,7 +4256,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.GridValueContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.GridValueContext.GDObjectObjects1;
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.GridValueContext.userFunc0x1405130(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.GridValueContext.userFunc0x13a4a38(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -4371,9 +4301,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -4414,7 +4342,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.FieldValueContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.FieldValueContext.userFunc0x1405130 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.FieldValueContext.userFunc0x13a1c98 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
 
@@ -4432,7 +4360,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.FieldValueContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.FieldValueContext.GDObjectObjects1;
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.FieldValueContext.userFunc0x1405130(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.FieldValueContext.userFunc0x13a1c98(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -4477,9 +4405,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -4588,9 +4514,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -4631,7 +4555,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.CheckFieldValueContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.CheckFieldValueContext.userFunc0x140bee0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.CheckFieldValueContext.userFunc0x13a8260 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
 
@@ -4650,7 +4574,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.CheckFieldValueContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.CheckFieldValueContext.GDObjectObjects1;
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.CheckFieldValueContext.userFunc0x140bee0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.CheckFieldValueContext.userFunc0x13a8260(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -4695,9 +4619,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -4739,7 +4661,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ContainsPointContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ContainsPointContext.userFunc0x140bfe0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ContainsPointContext.userFunc0x13a81e0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
 
@@ -4757,7 +4679,7 @@ gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.p
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ContainsPointContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ContainsPointContext.GDObjectObjects1;
-gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ContainsPointContext.userFunc0x140bfe0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__MarchingSquares__MarchingSquaresBehavior.MarchingSquaresBehavior.prototype.ContainsPointContext.userFunc0x13a81e0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -4802,9 +4724,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }

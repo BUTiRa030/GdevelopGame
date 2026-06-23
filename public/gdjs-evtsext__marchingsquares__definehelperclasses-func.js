@@ -9,7 +9,7 @@ gdjs.evtsExt__MarchingSquares__DefineHelperClasses = {};
 gdjs.evtsExt__MarchingSquares__DefineHelperClasses.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__MarchingSquares__DefineHelperClasses.userFunc0xd3f130 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__MarchingSquares__DefineHelperClasses.userFunc0xbf5e88 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 gdjs.__marchingSquaresExtension = gdjs.__marchingSquaresExtension || {};
 
@@ -115,7 +115,7 @@ gdjs.evtsExt__MarchingSquares__DefineHelperClasses.eventsList0 = function(runtim
 {
 
 
-gdjs.evtsExt__MarchingSquares__DefineHelperClasses.userFunc0xd3f130(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__MarchingSquares__DefineHelperClasses.userFunc0xbf5e88(runtimeScene, eventsFunctionContext);
 
 }
 
@@ -151,9 +151,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }

@@ -205,9 +205,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -452,9 +450,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
@@ -498,7 +494,7 @@ gdjs.evtsExt__PanelSpriteButton__BitmapTextStyleState.BitmapTextStyleState.proto
 gdjs.evtsExt__PanelSpriteButton__BitmapTextStyleState.BitmapTextStyleState.prototype.ColorContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PanelSpriteButton__BitmapTextStyleState.BitmapTextStyleState.prototype.ColorContext.userFunc0x1317018 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__PanelSpriteButton__BitmapTextStyleState.BitmapTextStyleState.prototype.ColorContext.userFunc0x12ca2b8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.BitmapTextRuntimeObject} */
 const object = eventsFunctionContext.getObjects("Object")[0];
@@ -510,7 +506,7 @@ gdjs.evtsExt__PanelSpriteButton__BitmapTextStyleState.BitmapTextStyleState.proto
 {
 
 
-gdjs.evtsExt__PanelSpriteButton__BitmapTextStyleState.BitmapTextStyleState.prototype.ColorContext.userFunc0x1317018(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__PanelSpriteButton__BitmapTextStyleState.BitmapTextStyleState.prototype.ColorContext.userFunc0x12ca2b8(runtimeScene, eventsFunctionContext);
 
 }
 
@@ -555,9 +551,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }

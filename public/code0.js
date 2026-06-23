@@ -5,19 +5,63 @@ gdjs.Main_32MenuCode.GDGreyButtonObjects1_1final = [];
 
 gdjs.Main_32MenuCode.GDGreyButtonObjects1= [];
 gdjs.Main_32MenuCode.GDGreyButtonObjects2= [];
+gdjs.Main_32MenuCode.GDGreyButtonObjects3= [];
 gdjs.Main_32MenuCode.GDSquareWhiteSliderObjects1= [];
 gdjs.Main_32MenuCode.GDSquareWhiteSliderObjects2= [];
+gdjs.Main_32MenuCode.GDSquareWhiteSliderObjects3= [];
 gdjs.Main_32MenuCode.GDVolumeObjects1= [];
 gdjs.Main_32MenuCode.GDVolumeObjects2= [];
+gdjs.Main_32MenuCode.GDVolumeObjects3= [];
 gdjs.Main_32MenuCode.GDBackGroundObjects1= [];
 gdjs.Main_32MenuCode.GDBackGroundObjects2= [];
+gdjs.Main_32MenuCode.GDBackGroundObjects3= [];
 gdjs.Main_32MenuCode.GDragequitObjects1= [];
 gdjs.Main_32MenuCode.GDragequitObjects2= [];
+gdjs.Main_32MenuCode.GDragequitObjects3= [];
 gdjs.Main_32MenuCode.GDBestSurviveTimeObjects1= [];
 gdjs.Main_32MenuCode.GDBestSurviveTimeObjects2= [];
+gdjs.Main_32MenuCode.GDBestSurviveTimeObjects3= [];
 
 
-gdjs.Main_32MenuCode.eventsList0 = function(runtimeScene) {
+gdjs.Main_32MenuCode.eventsList0 = function(runtimeScene, asyncObjectsList) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{gdjs.evtTools.storage.readNumberFromJSONFile("SaveSurvivalTime", "STime", runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(0));
+}
+}
+
+}
+
+
+};gdjs.Main_32MenuCode.asyncCallback18767316 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.Main_32MenuCode.localVariables);
+
+{ //Subevents
+gdjs.Main_32MenuCode.eventsList0(runtimeScene, asyncObjectsList);} //End of subevents
+gdjs.Main_32MenuCode.localVariables.length = 0;
+}
+gdjs.Main_32MenuCode.idToCallbackMap.set(18767316, gdjs.Main_32MenuCode.asyncCallback18767316);
+gdjs.Main_32MenuCode.eventsList1 = function(runtimeScene) {
+
+{
+
+
+{
+{
+const asyncObjectsList = new gdjs.LongLivedObjectsList();
+asyncObjectsList.backupLocalVariablesContainers(gdjs.Main_32MenuCode.localVariables);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.network.sendAwaitableAsyncRequest("/api/GetSurvivalTime", "", "GET", "application/json", runtimeScene.getScene().getVariables().getFromIndex(0), runtimeScene.getScene().getVariables().getFromIndex(1)), (runtimeScene) => (gdjs.Main_32MenuCode.asyncCallback18767316(runtimeScene, asyncObjectsList)), 18767316, asyncObjectsList);
+}
+}
+
+}
+
+
+};gdjs.Main_32MenuCode.eventsList2 = function(runtimeScene) {
 
 {
 
@@ -79,8 +123,9 @@ gdjs.copyArray(runtimeScene.getObjects("BestSurviveTime"), gdjs.Main_32MenuCode.
     gdjs.Main_32MenuCode.GDBestSurviveTimeObjects1[i].getBehavior("Text").setText("Best Time: " + runtimeScene.getGame().getVariables().getFromIndex(1).getAsString() + " Seconds");
 }
 }
-{gdjs.evtTools.network.sendAsyncRequest("/api/GetSurvivalTime", "", "GET", "application/json", runtimeScene.getScene().getVariables().getFromIndex(0), runtimeScene.getScene().getVariables().getFromIndex(1));
-}
+
+{ //Subevents
+gdjs.Main_32MenuCode.eventsList1(runtimeScene);} //End of subevents
 }
 
 }
@@ -143,7 +188,7 @@ if(isConditionTrue_1) {
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19240108);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18771668);
 }
 }
 if (isConditionTrue_0) {
@@ -162,8 +207,6 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(0).getAsString() != "");
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.storage.readNumberFromJSONFile("SaveSurvivalTime", "STime", runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(0));
-}
 }
 
 }
@@ -176,30 +219,42 @@ runtimeScene.getOnceTriggers().startNewFrame();
 
 gdjs.Main_32MenuCode.GDGreyButtonObjects1.length = 0;
 gdjs.Main_32MenuCode.GDGreyButtonObjects2.length = 0;
+gdjs.Main_32MenuCode.GDGreyButtonObjects3.length = 0;
 gdjs.Main_32MenuCode.GDSquareWhiteSliderObjects1.length = 0;
 gdjs.Main_32MenuCode.GDSquareWhiteSliderObjects2.length = 0;
+gdjs.Main_32MenuCode.GDSquareWhiteSliderObjects3.length = 0;
 gdjs.Main_32MenuCode.GDVolumeObjects1.length = 0;
 gdjs.Main_32MenuCode.GDVolumeObjects2.length = 0;
+gdjs.Main_32MenuCode.GDVolumeObjects3.length = 0;
 gdjs.Main_32MenuCode.GDBackGroundObjects1.length = 0;
 gdjs.Main_32MenuCode.GDBackGroundObjects2.length = 0;
+gdjs.Main_32MenuCode.GDBackGroundObjects3.length = 0;
 gdjs.Main_32MenuCode.GDragequitObjects1.length = 0;
 gdjs.Main_32MenuCode.GDragequitObjects2.length = 0;
+gdjs.Main_32MenuCode.GDragequitObjects3.length = 0;
 gdjs.Main_32MenuCode.GDBestSurviveTimeObjects1.length = 0;
 gdjs.Main_32MenuCode.GDBestSurviveTimeObjects2.length = 0;
+gdjs.Main_32MenuCode.GDBestSurviveTimeObjects3.length = 0;
 
-gdjs.Main_32MenuCode.eventsList0(runtimeScene);
+gdjs.Main_32MenuCode.eventsList2(runtimeScene);
 gdjs.Main_32MenuCode.GDGreyButtonObjects1.length = 0;
 gdjs.Main_32MenuCode.GDGreyButtonObjects2.length = 0;
+gdjs.Main_32MenuCode.GDGreyButtonObjects3.length = 0;
 gdjs.Main_32MenuCode.GDSquareWhiteSliderObjects1.length = 0;
 gdjs.Main_32MenuCode.GDSquareWhiteSliderObjects2.length = 0;
+gdjs.Main_32MenuCode.GDSquareWhiteSliderObjects3.length = 0;
 gdjs.Main_32MenuCode.GDVolumeObjects1.length = 0;
 gdjs.Main_32MenuCode.GDVolumeObjects2.length = 0;
+gdjs.Main_32MenuCode.GDVolumeObjects3.length = 0;
 gdjs.Main_32MenuCode.GDBackGroundObjects1.length = 0;
 gdjs.Main_32MenuCode.GDBackGroundObjects2.length = 0;
+gdjs.Main_32MenuCode.GDBackGroundObjects3.length = 0;
 gdjs.Main_32MenuCode.GDragequitObjects1.length = 0;
 gdjs.Main_32MenuCode.GDragequitObjects2.length = 0;
+gdjs.Main_32MenuCode.GDragequitObjects3.length = 0;
 gdjs.Main_32MenuCode.GDBestSurviveTimeObjects1.length = 0;
 gdjs.Main_32MenuCode.GDBestSurviveTimeObjects2.length = 0;
+gdjs.Main_32MenuCode.GDBestSurviveTimeObjects3.length = 0;
 
 
 return;

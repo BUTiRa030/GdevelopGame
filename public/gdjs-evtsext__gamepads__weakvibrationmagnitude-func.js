@@ -9,7 +9,7 @@ gdjs.evtsExt__Gamepads__WeakVibrationMagnitude = {};
 gdjs.evtsExt__Gamepads__WeakVibrationMagnitude.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Gamepads__WeakVibrationMagnitude.userFunc0xc87f18 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Gamepads__WeakVibrationMagnitude.userFunc0xa02bc0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const playerId = eventsFunctionContext.getArgument("PlayerId") - 1;
 eventsFunctionContext.returnValue = gdjs._extensionController.getPlayer(playerId).rumble.weakMagnitude;
@@ -19,7 +19,7 @@ gdjs.evtsExt__Gamepads__WeakVibrationMagnitude.eventsList0 = function(runtimeSce
 {
 
 
-gdjs.evtsExt__Gamepads__WeakVibrationMagnitude.userFunc0xc87f18(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Gamepads__WeakVibrationMagnitude.userFunc0xa02bc0(runtimeScene, eventsFunctionContext);
 
 }
 
@@ -55,9 +55,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }

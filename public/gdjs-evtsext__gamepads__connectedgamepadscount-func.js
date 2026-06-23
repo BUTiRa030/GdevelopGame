@@ -9,7 +9,7 @@ gdjs.evtsExt__Gamepads__ConnectedGamepadsCount = {};
 gdjs.evtsExt__Gamepads__ConnectedGamepadsCount.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Gamepads__ConnectedGamepadsCount.userFunc0xc87f18 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Gamepads__ConnectedGamepadsCount.userFunc0xb38140 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 
 const gamepads = navigator.getGamepads ? navigator.getGamepads() : [];
@@ -28,7 +28,7 @@ gdjs.evtsExt__Gamepads__ConnectedGamepadsCount.eventsList0 = function(runtimeSce
 {
 
 
-gdjs.evtsExt__Gamepads__ConnectedGamepadsCount.userFunc0xc87f18(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Gamepads__ConnectedGamepadsCount.userFunc0xb38140(runtimeScene, eventsFunctionContext);
 
 }
 
@@ -64,9 +64,7 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
-          eventsFunctionContext._objectArraysMap[objectName].push(object);
-        }
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
       }
       return object;
     }
